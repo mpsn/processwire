@@ -229,7 +229,7 @@ var Inputfields = {
 			$toggleIcon.toggleClass($toggleIcon.attr('data-to')); // data-to=classes to toggle
 			$inputfield.removeClass('InputfieldStateToggling');
 			Inputfields.redraw($inputfield, 500); 
-			// setTimeout('InputfieldColumnWidths()', 500);
+			// setTimeout(InputfieldColumnWidths, 500);
 			completed();
 		}
 
